@@ -1,0 +1,292 @@
+*{
+  box-sizing: border-box;
+  /* margin-left: 96px;
+  margin-right: 96px; */
+  
+}
+
+html{
+  font-size: 150%;
+  /* margin-left: 96px;
+  margin-right: 96px; */
+}
+
+header{
+  width:100%;
+  float:left;
+}
+
+header,nav{
+  text-align: center;
+}
+
+.topnav{
+  /* float:left; */
+  align-items: center;
+  width:100%;
+}
+
+.firstlist{
+  padding-inline-start:none;
+  display:inline-flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+
+nav li{
+  /* width:100%; */
+  /* display:inline; */
+  text-align: center;
+  margin-right: 12%;
+  height:50%;
+  /* font-size: 1.5rem; */
+  /* margin-top: 50%;
+  margin-bottom: 50%; */ 
+}
+
+.firstlist a{
+  color:white;
+  background-color: black;
+  width: 10px;
+  text-decoration:none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* #home{
+  margin-left: 15%;
+} */
+
+main{
+  width:100%;
+}
+
+.jwli{
+  background-color: rgb(241, 243, 245);
+  width:100%;
+  float:left;
+}
+
+.jwlileft{
+  width:50%;
+  float:left;
+  background-color: rgb(241, 243, 245);
+}
+
+.topleftjwli{
+  /* height:133.3333px; */
+  width:100%;
+}
+
+.jwi{
+  
+  width:100%;
+}
+
+.midleftjwli{
+  width:100%;
+  text-align: center;
+}
+
+.bottomleftjwli{
+  width:100%;
+  text-align: center;
+}
+
+.rightjwli{
+  float:left;
+  width:50%;
+  height:100%;
+}
+
+.graylady{
+  height:100%;
+  width:100%;
+}
+
+.twofromtop{
+  width:100%;
+  height: 400px;
+  float: left;
+  
+}
+
+.tophalf{
+  height:133.3333px;
+  width: 100%;
+  float:left;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.midhalf{
+  height:133.3333px;
+  width: 100%;
+  float:left;
+}
+
+.left{
+  height:133.3333px;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.right{
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.bottomhalf{
+  width:100%;
+  float:left;
+}
+/* 
+.dinner{
+  float:left;
+}
+
+.people{
+  float:left;  */
+
+.ourhistory{
+   width:100%;
+  background-color: rgb(241, 243, 245); 
+}
+
+.lotsofwriting{
+  float:left;
+  width: 60%;
+}
+.twopics{
+  float:left;
+  width:40%;
+}
+
+.dinner{
+  width:100%;
+  height:50%;
+}
+
+.people{
+  height:50%;
+  width:100%;
+}
+
+.toppart{
+  float:left;
+  margin:40px;
+  border: 1px solid lightgray;
+}
+
+.whoweare{
+  width:100%;  
+}
+
+.lastpicoflady{
+  float:left;
+  width:40%;
+}
+
+.picatend{
+  width:90%;
+}
+
+.morewords{
+  float:left;
+  width:50%;
+}
+
+.lasttextleft{
+  width:50%;
+  float:left;
+}
+
+.lasttextright{
+  width:50%;
+  float:left;
+}
+
+footer{
+  width:100%;
+}
+
+.footertop{
+  background-color: rgb(182, 197, 209);
+  float:left;
+  width:100%;
+  height:70px;
+  
+  
+}
+
+.side1{
+  width:50%;
+  height:70px;
+  float:left;
+}
+
+.side2{
+  width:50%;
+  height:70px;
+  float:left;
+}
+
+.footermid{
+  width:100%;
+  height:60px;
+  display:inline-flex;
+  margin:0;
+}
+
+.midfooterleft{
+  width:50%;
+  font:1rem;
+  height:60px;
+  
+}
+
+
+.midfooterright{
+  width:50%;
+  font:1rem;
+  height:60px;
+
+}
+
+.footerbottom{
+  width:100%;
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: space-between;
+}
+
+.leftside, .rightside{
+  width:50%;
+  display:inline-flex;
+  
+}
+
+.lastnav ul{
+width:50%;
+float:left;
+
+}
+
+.lastnav>section{
+  display:inline-flex;
+  width:50%;
+}
+
+@media screen and (max-width:793px){nav{
+  display:none;
+}}
+
+@media screen and (max-width:793px){nav{
+  display:none;
+}}
+
+
