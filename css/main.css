@@ -472,7 +472,7 @@ p {
 }
 
 .work .item-two {
-    background: url('../img/listOfThings.png') no-repeat center center;
+    background: url('../img/techCruchphoto.png') no-repeat center center;
     background-size: cover;
     height: 700px;
 }
@@ -514,7 +514,7 @@ p {
 }
 
 .work .item-three {
-    background: url('../img/techCruchphoto.png') no-repeat center center;
+    background: url('../img/listOfThings.png') no-repeat center center;
     background-size: cover;
     height: 700px;
 }
