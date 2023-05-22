@@ -430,7 +430,7 @@ p {
 }
 
 .work .item-one {
-    background: url('../img/placeholderbg.jpg') no-repeat center center;
+    background: url('../img/cardGame.png') no-repeat center center;
     background-size: cover;
     height: 700px;
 }
