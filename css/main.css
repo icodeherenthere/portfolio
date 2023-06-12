@@ -519,6 +519,90 @@ p {
     height: 700px;
 }
 
+/******** ITEM FOUR SECTION START ********/
+
+.item-four .overlay h3 {
+    margin-top: 330px;
+    color: #fff;
+    font-size: 12pt;
+    letter-spacing: 2pt;
+}
+
+.item-four .overlay h3:hover {
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    color: #707070;
+}
+
+.item-four .overlay {
+    position: absolute;
+    background: #222;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.item-four .overlay:hover {
+    opacity: 0.7;
+}
+
+.item-four .overlay a {
+    text-decoration: none;
+}
+
+.work .item-four {
+    background: url('../img/horoscope.png') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
+/******** ITEM FIVE SECTION START ********/
+
+.item-five .overlay h3 {
+    margin-top: 330px;
+    color: #fff;
+    font-size: 12pt;
+    letter-spacing: 2pt;
+}
+
+.item-five .overlay h3:hover {
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    color: #707070;
+}
+
+.item-five .overlay {
+    position: absolute;
+    background: #222;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.item-five .overlay:hover {
+    opacity: 0.7;
+}
+
+.item-five .overlay a {
+    text-decoration: none;
+}
+
+.work .item-five {
+    background: url('../img/trackAttackMain.png') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
 /******** TESTIMONIALS SECTION START ********/
 
 .review {
@@ -633,6 +717,7 @@ p {
 
 #form {
     padding: 150px 100px;
+    color:white;
 }
 
 .form-bg .name {
@@ -652,6 +737,7 @@ p {
     -webkit-transition: border .6s;
     outline: none;
     border: 1px solid rgba(255,255,255,.2);
+    margin-bottom: 30px;
 }
 
 .form-bg .email {
@@ -668,6 +754,7 @@ p {
 }
 
 .form-bg .email:focus {
+    margin-top: 30px;
     transition: border .6s;
     -webkit-transition: border .6s;
     outline: none;
